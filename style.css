@@ -131,6 +131,7 @@ section h2{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 25px;
+    padding: 30px 15px;
 }
 .box{
     display: flex;
@@ -163,7 +164,7 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(75, 75, 75);
+    background-color: darkslategray;
     padding: 10px;
     color: aliceblue;
 }
