@@ -12,6 +12,7 @@ nav{
     justify-content: space-between;
     padding: 15px;
     background:slategray;
+    flex-wrap: wrap;
 }
 .menu{
     display: flex;
@@ -145,6 +146,7 @@ section h2{
 .chbox{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content:space-around;
     gap: 10px;
 }
@@ -156,6 +158,10 @@ section h2{
     background-color: #4CAF50;
     height: 40px;
     font-size: 18px;
+    color: antiquewhite;
+}
+.box button:hover{
+    background-color: #eb5a17;
     color: antiquewhite;
 }
 footer{
